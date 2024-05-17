@@ -1,21 +1,12 @@
 #include <iostream>
+#include "functions.h"
 
 using namespace std;
 
 int main() {
-    
-    unsigned long n;
-    cout << "";
-    cin >> n;
 
-    do {
-        if (n % 2) {
-            n = 3 * n + 1;
-        } else {
-            n = n / 2;
-        }
-        cout << "# " << n << endl;
-    } while (n > 1);
+    Functions function;
+    function.n3();
 
     return 0;
 }
