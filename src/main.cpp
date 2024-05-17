@@ -15,7 +15,7 @@ int main() {
             n = n / 2;
         }
         cout << "# " << n << endl;
-    } while (n > 0);
+    } while (n > 1);
 
     return 0;
 }
