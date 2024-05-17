@@ -9,12 +9,12 @@ int main() {
     cin >> n;
 
     do {
-        if (n % 2 = 0) {
-            n = n / 2;
-        } else {
+        if (n % 2) {
             n = 3 * n + 1;
+        } else {
+            n = n / 2;
         }
-        cout << n;
+        cout << "# " << n << endl;
     } while (n != 0);
 
     return 0;
