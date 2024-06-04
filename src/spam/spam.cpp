@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 
     for (int i = 0; i < 100; i++) {
-        cout << i << ": Итер!..Ахх..\n"
+        cout << i << ": Итер!..Ахх..\n";
     }
 
     return 0;
