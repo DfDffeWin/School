@@ -1,13 +1,12 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main() {
 
-    int i = 0;
-
-    while (true) {
-        cout << i << "       uu$$$$$$$$$$$uu
+    string skull = R"(
+                             uu$$$$$$$$$$$uu
                           uu$$$$$$$$$$$$$$$$$uu
                          u$$$$$$$$$$$$$$$$$$$$$u
                          u$$$$$$$$$$$$$$$$$$$$$$$u
@@ -31,8 +30,11 @@ int main() {
                  u$$$uuu$$$$$$$$$uu ==$$$$$$$$$$$uuu$$$
                  $$$$$$$$$$====           ==$$$$$$$$$$$=
                    =$$$$$=                      ==$$$$==
-                     $$$=                         $$$$=\n\n";
-        i++;
+                     $$$=                         $$$$=
+    )";
+    
+    while (true) {
+        cout << skull << endl << endl;
     }
 
     return 0;
