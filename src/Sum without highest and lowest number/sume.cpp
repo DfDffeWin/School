@@ -23,3 +23,5 @@ int sum(const std::vector<int> arr)
 
     return totalSum;
 }
+
+// From CodeWars )
