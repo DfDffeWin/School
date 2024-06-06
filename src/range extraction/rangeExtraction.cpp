@@ -30,3 +30,5 @@ std::string range_extraction(std::vector<int> numbers) {
 
     return result.str();
 }
+
+// :)
