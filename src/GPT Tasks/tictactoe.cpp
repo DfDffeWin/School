@@ -1,3 +1,10 @@
+/*
+Tic-Tac-Toe Game
+
+Description: Create a simple console-based
+Tic-Tac-Toe game for two players.
+*/
+
 #include <iostream>
 
 char board[3][3] = {{'1', '2', '3'}, {'4', '5', '6'}, {'7', '8', '9'}};
