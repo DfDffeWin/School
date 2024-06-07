@@ -12,7 +12,7 @@ using namespace std;
 int main() {
 
     int n;
-    long res = 1;
+    unsigned long res = 1;
 
     cin >> n;
 
