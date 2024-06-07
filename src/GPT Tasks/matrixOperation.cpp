@@ -1,3 +1,10 @@
+/*
+Matrix Operations
+
+Description: Write functions to perform matrix addition,
+subtraction, multiplication, and transpose.
+*/
+
 #include <iostream>
 #include <vector>
 
