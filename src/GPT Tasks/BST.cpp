@@ -1,3 +1,9 @@
+/*
+Binary Search Tree (BST)
+
+-*-hasn't write a description-*-
+*/
+
 #include <iostream>
 
 class TreeNode {
