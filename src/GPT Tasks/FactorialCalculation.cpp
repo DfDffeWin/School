@@ -11,8 +11,10 @@ using namespace std;
 
 int main() {
 
-    int n, res = 1;
-    cin << n;
+    int n;
+    long res = 1;
+
+    cin >> n;
 
     for (int i = n; i > 0; i--) {
         res *= i;
