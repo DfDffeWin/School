@@ -85,8 +85,8 @@ void HackingProcess() {
         std::this_thread::sleep_for(std::chrono::seconds(1));
     }
 
-    std::cout << "\n[*] Triggering scare messages...\n";
-    for (const auto& message : scareMessages) {
+    std::cout << "\n[*] Triggering messages...\n";
+    for (const auto& message : Messages) {
         std::cout << message << std::endl;
         std::this_thread::sleep_for(std::chrono::seconds(1));
     }
