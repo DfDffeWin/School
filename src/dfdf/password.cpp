@@ -4,7 +4,7 @@
 #include <vector>
 #include <cstdlib>
 
-void simulateHackingProcess() {
+void HackingProcess() {
     const std::vector<std::string> stages = {
         "[*] Initializing hack module...",
         "[*] Connecting to server...",
@@ -39,7 +39,7 @@ void simulateHackingProcess() {
         "Disconnected."
     };
 
-    const std::vector<std::string> scareMessages = {
+    const std::vector<std::string> Messages = {
         "[!] Warning: Detected anti-hacking software...",
         "[!] Warning: Traces of your IP detected...",
         "[!] Warning: Possible counter-hack attempt...",
@@ -178,7 +178,7 @@ int main() {
     std::cout << "------------------\n";
     std::cout << "[*] Starting hack sequence...\n";
 
-    simulateHackingProcess();
+    HackingProcess();
 
     std::cout << "[*] Press any key to exit...\n";
     std::cin.get();
